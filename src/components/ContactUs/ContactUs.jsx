@@ -31,11 +31,7 @@ const contactItems = [
 // Variants للـ motion
 const containerVariants = {
     hidden: {},
-    show: {
-        transition: {
-            staggerChildren: 0.2,
-        },
-    },
+    show: { transition: { staggerChildren: 0.2, }, },
 };
 
 const itemVariants = {
