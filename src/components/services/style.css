@@ -1,0 +1,9 @@
+
+.icon{
+     background-color: #2fa69c38;
+}
+
+.card:hover .icon{
+    background-color: #2fa69c;
+    color: white;
+}

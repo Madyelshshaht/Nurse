@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+
+:root {
+  --primary-color: #2FA69C;
+  --text-color: #1E2B3A;
+  --secondary-text-color: #6B7C8C;
+  --background-color: #F5F9F9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  direction: rtl;
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: #fff;
+}
